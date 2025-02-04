@@ -11,3 +11,6 @@ console.log(dir);
 // 파일 이름만 추출
 const fn1 = path.basename(__filename);
 console.log(fn1);
+
+const fn2 = path.basename(__filename, '.js')
+console.log(fn2);
